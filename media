@@ -1,0 +1,13 @@
+public class lanche {
+    public static void main(String[]args)
+    {
+        int h1=10;
+        int h2=4;
+        int h3=2;
+        int soma=h1+h2+h3;
+        float med=soma/3;
+
+        System.out.println("Quantidade de lanches:"+(soma));
+        System.out.println("Média dos lanches: "+(med));
+    }
+}
