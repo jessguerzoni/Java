@@ -1,0 +1,11 @@
+public class soma 
+{
+    public static void main(String[]args)
+    {
+        int x=9;
+        int y=45;
+        int soma=x+y;
+        System.out.println("A soma é: "+(soma));
+    }
+    
+}
