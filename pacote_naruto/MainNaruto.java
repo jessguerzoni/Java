@@ -1,20 +1,20 @@
 package pacote_naruto;
 
 
-
+import java.util.Scanner;
 public class MainNaruto {
     public static void main(String[] args) {
         
-        Aldeia aldeia = new Aldeia();
-        Ninja ninja1= new Ninja();
-        Ninja ninja2 = new Ninja();
-        Ninja ninja3 = new Ninja();
+        Ninja ninja1=new Ninja();
+        n1=
 
- 
+        ninja1
         
-        aldeia.mostraInfo();
 
 
+        
+        
+        
 
     }
     

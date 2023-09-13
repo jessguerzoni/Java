@@ -1,7 +1,7 @@
 
 package pacote_naruto;
 
-
+import java.util.Scanner;
 public class Aldeia {
     Ninja []ninjas = new Ninja[10];
     String nome;
@@ -10,17 +10,21 @@ public class Aldeia {
 
     void addNinja(Ninja ninja){
 
+        Scanner ninjas=new Scanner(System.in);
+        String n;
+
         for(int i=0; i<ninjas.length;i++)
         {
             if(ninjas[i] == null)
             {
-                ninjas[i]= ninja;
+                n=ninjas.nextLine();
                 break;
             }
             
         
         }
     }
+    
     void mostraInfo(){
         for (int i = 0; i < ninjas.length; i++) {
             if(ninjas[i] != null){
